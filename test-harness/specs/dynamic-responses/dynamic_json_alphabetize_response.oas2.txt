@@ -6,7 +6,7 @@ And this operation can produce application/json response
 And this operation response defines a Schema Object
 And I make a request to this operation
 And the request has Accept header of application/json
-Then I should get a response with dynamically generated JSON as payload that is aplphabetized.
+Then I should get a response with dynamically generated JSON as payload that is alphabetized.
 ====spec====
 swagger: "2.0"
 info:

@@ -151,7 +151,7 @@ return prism.request(
 
 ## Make Request To An Upstream Server
 
-We don't want to mock a reqeust, we simply want to make the request, hit the actual server and get the response back.
+We don't want to mock a request, we simply want to make the request, hit the actual server and get the response back.
 
 ```javascript
 const Prism = require('@stoplight/prism-http');

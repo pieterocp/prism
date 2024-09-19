@@ -252,7 +252,7 @@ function findValidationByCode(validations: NonEmptyArray<IPrismDiagnostic>, code
 export const createUnauthorisedResponse = (tags?: string[]): ProblemJsonError =>
   ProblemJsonError.fromTemplate(
     UNAUTHORIZED,
-    'Your request does not fullfil the security requirements and no HTTP unauthorized response was found in the spec, so Prism is generating this error for you.',
+    'Your request does not fulfil the security requirements and no HTTP unauthorized response was found in the spec, so Prism is generating this error for you.',
     tags && tags.length ? { headers: { 'WWW-Authenticate': tags.join(',') } } : undefined
   );
 

@@ -1,5 +1,5 @@
 ====test====
-If Prism detects an input violation, but not an output violiation, the status code should not be modified to be a 500
+If Prism detects an input violation, but not an output violation, the status code should not be modified to be a 500
 ====spec====
 openapi: 3.0.0
 paths:

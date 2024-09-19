@@ -54,12 +54,12 @@ describe('convertAjvErrors()', () => {
           [Object.assign({}, errorObjectFixture, {
             params: { unevaluatedProperty: 'd' },
             keyword: 'unevaluatedProperties',
-            message: 'must NOT have unevaluated propertes',
+            message: 'must NOT have unevaluated properties',
           })],
           DiagnosticSeverity.Error,
           ValidationContext.Input
         )[0]
-      ).toHaveProperty('message', "Request parameter a.b must NOT have unevaluated propertes: 'd'");
+      ).toHaveProperty('message', "Request parameter a.b must NOT have unevaluated properties: 'd'");
     });
    });
 });
